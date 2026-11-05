@@ -4,6 +4,7 @@ import {
   FaqType,
   ServiceType,
 } from "@/types";
+import { SITE_URL } from "@/lib/site";
 
 interface Props {
   view: "services" | "doctors" | "about" | "blog" | "contact";
@@ -13,7 +14,7 @@ interface Props {
   faqs: FaqType[];
 }
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://medicareplus.pk").replace(/\/$/, "");
+const siteUrl = SITE_URL;
 
 export default function PublicCollectionStructuredData({
   view,

@@ -85,7 +85,7 @@ export async function getPublicClinicData() {
     phone: "+92 325 1888841",
     emergencyPhone: "+92 325 1888841",
     whatsapp: "923251888841",
-    email: "info@wordbitxtech.com",
+    email: "info@wordbitx.com",
     address: "Plot 42-B, Main Boulevard, Gulberg III, Lahore, Pakistan",
     city: "Lahore",
     openingHoursWeekday: "Mon - Fri: 08:00 AM - 10:00 PM",

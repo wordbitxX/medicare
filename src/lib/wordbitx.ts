@@ -5,13 +5,13 @@
 
 export const WORDBITX = {
   companyName: "WordbitX Software Company",
-  website: "https://wordbitxtech.com",
+  website: "https://wordbitx.com",
   phone: "+92 325 1888841",
   phoneHref: "tel:+923251888841",
   whatsapp: "923251888841",
   whatsappHref: "https://wa.me/923251888841",
-  email: "info@wordbitxtech.com",
-  emailHref: "mailto:info@wordbitxtech.com",
+  email: "info@wordbitx.com",
+  emailHref: "mailto:info@wordbitx.com",
   headOffice: "Lahore, Pakistan",
   tagline: "Custom Software · Websites · Mobile Apps · AI · SEO & Digital Growth",
 };

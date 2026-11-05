@@ -6,10 +6,11 @@ import { blogPosts } from "@/db/schema";
 import { and, eq } from "drizzle-orm";
 import PublicArticlePage from "@/components/public/PublicArticlePage";
 import { getPublicClinicData } from "@/lib/clinic-data";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://medicareplus.pk").replace(/\/$/, "");
+const siteUrl = SITE_URL;
 
 const getPublishedPost = cache(async (slug: string) => {
   const [post] = await db
