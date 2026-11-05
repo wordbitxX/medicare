@@ -6,6 +6,7 @@ import {
   ServiceType,
 } from "@/types";
 import { WORDBITX } from "@/lib/wordbitx";
+import { SITE_URL } from "@/lib/site";
 
 interface StructuredDataProps {
   settings: ClinicSettingsType;
@@ -15,7 +16,7 @@ interface StructuredDataProps {
   faqs?: FaqType[];
 }
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://medicareplus.pk").replace(/\/$/, "");
+const siteUrl = SITE_URL;
 
 export default function StructuredData({
   settings,

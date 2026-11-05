@@ -7,10 +7,11 @@ import { eq } from "drizzle-orm";
 import PublicDoctorProfilePage from "@/components/public/PublicDoctorProfilePage";
 import { getPublicClinicDataSafe } from "@/lib/clinic-data";
 import DbErrorNotice from "@/components/public/DbErrorNotice";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://medicareplus.pk").replace(/\/$/, "");
+const siteUrl = SITE_URL;
 
 const getDoctor = cache(async (slug: string) => {
   const id = Number(slug);

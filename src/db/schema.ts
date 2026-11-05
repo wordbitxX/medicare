@@ -18,7 +18,7 @@ export const clinicSettings = pgTable("clinic_settings", {
   phone: varchar("phone", { length: 50 }).notNull().default("+92 325 1888841"),
   emergencyPhone: varchar("emergency_phone", { length: 50 }).notNull().default("+92 325 1888841"),
   whatsapp: varchar("whatsapp", { length: 50 }).notNull().default("923251888841"),
-  email: varchar("email", { length: 100 }).notNull().default("info@wordbitxtech.com"),
+  email: varchar("email", { length: 100 }).notNull().default("info@wordbitx.com"),
   address: text("address").notNull().default("WordbitX Specialty Care Center, Main Boulevard, Gulberg III, Lahore, Pakistan"),
   city: varchar("city", { length: 100 }).notNull().default("Lahore, Pakistan"),
   openingHoursWeekday: varchar("opening_hours_weekday", { length: 100 }).notNull().default("Mon - Fri: 8:00 AM - 10:00 PM"),

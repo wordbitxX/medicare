@@ -143,7 +143,7 @@ export default function Footer({ settings, onOpenBooking, onOpenTracker }: Foote
                 </li>
                 <li className="flex items-center gap-1.5">
                   <ExternalLink className="w-3 h-3 text-blue-400 shrink-0" />
-                  <a href={WORDBITX.website} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">wordbitxtech.com</a>
+                  <a href={WORDBITX.website} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">wordbitx.com</a>
                 </li>
               </ul>
             </div>

@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS clinic_settings (
   phone VARCHAR(50) NOT NULL DEFAULT '+92 325 1888841',
   emergency_phone VARCHAR(50) NOT NULL DEFAULT '+92 325 1888841',
   whatsapp VARCHAR(50) NOT NULL DEFAULT '923251888841',
-  email VARCHAR(100) NOT NULL DEFAULT 'info@wordbitxtech.com',
+  email VARCHAR(100) NOT NULL DEFAULT 'info@wordbitx.com',
   address TEXT NOT NULL DEFAULT 'WordbitX Specialty Care Center, Lahore, Pakistan',
   city VARCHAR(100) NOT NULL DEFAULT 'Lahore, Pakistan',
   opening_hours_weekday VARCHAR(100) NOT NULL DEFAULT 'Mon - Fri: 8:00 AM - 10:00 PM',

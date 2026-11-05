@@ -68,7 +68,7 @@ export default function OpenGraphImage() {
 
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div style={{ display: "flex", fontSize: 18, color: "#83e8ca", fontWeight: 700 }}>
-              medicareplus.pk
+              medicare.wordbitx.pk
             </div>
             <div
               style={{

@@ -2,8 +2,7 @@ import type { MetadataRoute } from "next";
 import { db } from "@/db";
 import { blogPosts, doctors } from "@/db/schema";
 import { eq } from "drizzle-orm";
-
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://medicareplus.pk").replace(/\/$/, "");
+import { SITE_URL as siteUrl } from "@/lib/site";
 
 // Never prerender at build time — the sitemap must not block (or depend on)
 // the production build. It is generated at request time instead.

@@ -69,7 +69,7 @@ export default function WordbitxPromo({ clinicName }: WordbitxPromoProps) {
                   className="btn-press inline-flex items-center justify-center gap-2 rounded-xl border border-white/15 bg-white/[0.06] px-7 py-3.5 text-sm font-bold text-white transition hover:bg-white/10"
                 >
                   <Globe className="h-4 w-4 text-teal-300" />
-                  wordbitxtech.com
+                  wordbitx.com
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </div>
